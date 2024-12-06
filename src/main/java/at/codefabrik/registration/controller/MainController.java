@@ -7,10 +7,7 @@ import org.springframework.ui.Model;
 @Controller
 @AllArgsConstructor
 public class MainController {
-
-
     public String showHomePage(Model model){
-
         return "index";
     }
 }
